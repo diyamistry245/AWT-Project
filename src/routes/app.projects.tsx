@@ -112,8 +112,12 @@ function ProjectsPage() {
       <div>
         <h1 className="text-3xl font-bold">Recommended Projects</h1>
         <p className="mt-2 text-muted-foreground">
+<<<<<<< HEAD
           Ranked by how much of each project you can already build with your
           current skills.
+=======
+          Ranked by how much of each project you can already build with your current skills.
+>>>>>>> f79c7f6 (Update profile and personal development pages)
         </p>
       </div>
 
@@ -146,8 +150,13 @@ function ProjectsPage() {
                     ))}
                   </div>
                   <p className="mt-4 text-xs text-muted-foreground">
+<<<<<<< HEAD
                     You already know {known.length}/{p.skills.length} required
                     skills · Gains: {p.gains.join(", ")}
+=======
+                    You already know {known.length}/{p.skills.length} required skills · Gains:{" "}
+                    {p.gains.join(", ")}
+>>>>>>> f79c7f6 (Update profile and personal development pages)
                   </p>
                 </Glass>
               );
